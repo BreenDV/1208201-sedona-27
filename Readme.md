@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/27/user/1208201).
-* Наставник: `Неизвестно`.
+* Студент: [Дмитрий Бреенков](https://htmlacademy.ru/profile/id1208201).
+* Наставник: [Антон Савельев](https://htmlacademy.ru/profile/id1101501).
 
 ---
 
