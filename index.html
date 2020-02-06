@@ -7,7 +7,8 @@
   <body style="background-color: black; color: white;">
     <!--не забыть снять стили-->
     <header>
-      <img src="img\logo\header-logo.svg" width="140" height="71" alt="Лого сайта">
+      <a href="#"><img src="img\logo\header-logo.svg" width="140" height="71" alt="Лого сайта"></a>
+      <!--Поставил тег а без атрибута-->
       <nav>
         <ul>
           <li><a href="info.html">Информация</a></li>
@@ -30,14 +31,14 @@
       <section>
         <!--<h2>Преимущества</h2>-->
       <ol>
-        <li class="one">
-            <div class="content1">
+        <li class="advantage-line">
+            <div class="advantage-content">
               <h3>Настоящий городок</h3>
-              <p>— №1 —</p>
+              <span>— №1 —</span>
               <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
             <img src="img\content\image-content1.jpg" width="800px" height="256px" alt="Фото городка">
-            <div class="content1-list">
+            <div class="advantage-content-list">
               <ul>
                 <li>
                   <h3>Жильё</h3>
@@ -57,29 +58,29 @@
               </ul>
             </div>
           </li>
-        <li class="two">
-           <div class="content2">
+        <li class="advantage-line">
+           <div class="advantage-content-bridge">
             <h3>Там есть Мост дьявола</h3>
             <p>— №2 —</p>
             <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </div>
           <img src="img\content\image-content2.jpg" width="800px" height="256px" alt="Фото Моста">
         </li>
-        <li class="three">
-          <div class="content3">
+        <li class="advantage-line">
+          <div class="advantage-content-area">
            <h3>Небольшая площадь</h3>
            <p>— №3 —</p>
            <p>Все достопримечательности находятся очень близко</p>
           </div>
-        <li class="four">
-          <div class="content4">
+        <li class="advantage-line">
+          <div class="advantage-content-road">
            <h3>Красивая дорога</h3>
            <p>— №4 —</p>
            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </div>
         </li>
-        <li class="five">
-          <div class="content5">
+        <li class="advantage-line">
+          <div class="advantage-content-tourists">
            <h3>Мало туристов</h3>
            <p>— №5 —</p>
            <p>Большинство едет в гранд каньон и толпится там</p>
@@ -92,8 +93,14 @@
         <p>Укажите предполагаемые даты поездки,<br>
         и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <button type="button">Поиск гостниц в седоне</button>
-        <!--Здесь будет форма-->
-        <img src="img\icon\calendar.svg" width="21px" height="22px" alt="Иконка календаря">
+        <form class="search-hotels" action="https://echo.htmlacademy.ru" method="post">
+          <label> Дата заезда:<input type="text" name="date-zaezd" placeholder="24 апреля 2017"></label><br>
+          <label> Дата выезда:<input type="text" name="date-viezd" placeholder="4 июля 2017"></label><br>
+          <label> Взрослые:<input type="number" name="adults" placeholder=""></label>
+          <label> Дети:<input type="number" name="children" placeholder=""></label>
+          <input type="submit" class="form-button" value="НАЙТИ">
+        </form>
+        <!--<img src="img\icon\calendar.svg" width="21px" height="22px" alt="Иконка календаря">-->
         <!--Плюс и минус формы = CSS-->
       </section>
     </main>
