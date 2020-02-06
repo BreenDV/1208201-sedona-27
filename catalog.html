@@ -18,12 +18,32 @@
     </header>
     <main>
       <section class="filters">
-        <!--здесь будет форма-->
+        <fieldset>
+          <legend>Инфраструктура</legend>
+          <ul>
+            <li><label><input type="checkbox" checked>Бассейн</label></li>
+            <li><label><input type="checkbox">Парковка</label></li>
+            <li><label><input type="checkbox">WI-Fi</label></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Тип жилья</legend>
+          <ul>
+            <li><label><input type="checkbox" checked>Гостиница</label></li>
+            <li><label><input type="checkbox" checked>Мотель</label></li>
+            <li><label><input type="checkbox" checked>Аппартаменты</label></li>
+          </ul>
+        </fieldset>
         <!--<img src="img\icon\checkbox-on.svg" width="27px" height="23px" alt="Активный выбор">
         <img src="img\icon\checkbox-off.svg" width="23px" height="23px" alt="Неактивный выбор">-->
         <img src="img\icon\filter-button.svg" width="20px" height="22px" alt="Ползунок">
         <img src="img\icon\icon-up-dir.svg" width="11px" height="10px" alt="Стрелка вверх">
         <img src="img\icon\icon-down-dir.svg" width="11px" height="10px" alt="Стрелка вниз">
+        Стоймость в сутки (Р):<br>
+        <input type="text" class="range-min" placeholder="0">
+        <input type="text" class="range-max" placeholder="3000"><br>
+        <input type="range" min="0" max="4000"><br>
+        <input type="submit" value="Показать">
       </section>
       <section class="result">
         <h3>Найдено: 3</h3>
