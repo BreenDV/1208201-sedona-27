@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: "PT Sans", "Arial";
+    color: black;
+    text-transform: uppercase;
+    background-color: #696969;
+    /*Не пойму почему не подгружается картинка в фон*/
+    background-image: url ("img/content/background-photo.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cite-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    
+}
+
+.cite-navigation {
+    list-style: none;
+}
+.cite-navigation a {
+    color: black;
+}
+
+.cite-navigation a:hover, a:focus{
+   color: #81b3d2;
+}
+
+.cite-navigation a:active{
+    color: rgba(0, 0, 0, 0.3);
+ }
+ /*По styleguide не понял как задать
+ значение при нахождении на странице*/
+
+  h2.descrierea{
+     font-size: 26px;
+     font-weight: bold;
+     text-align: center;
+     line-height: 26px;
+}
+
+  p.descrierea {
+     font-size: 14px;
+     font-weight: normal;
+     text-align: center;
+     line-height: 26px;
+}
+
+li.advantage-line {
+    list-style: none;
+}
+div.advantage-content {
+    color: white;
+    line-height: 21px;  
+}
+.advantage-content h3 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.advantage-content p, span {
+    font-size: 14px;
+    font-weight: normal;
+}
+.advantage-list {
+    list-style: none;
+}
+.advantage-list h3 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+}
+.advantage-list p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+div.advantage-content-bridge {
+    color: white;
+    line-height: 21px;  
+}
+.advantage-content-bridge h3 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.advantage-content-bridge p, span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.area {
+    list-style: none;
+}
+
+.area h3 {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.advantage-area span, p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.interest {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.interest-text {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+button.search-sedona {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    text-transform: uppercase;
+    background-color: #766357;
+    border: none;
+    width: 568px;
+    height: 86px;
+
+}
+
+.search-sedona button:focus, button:hover{
+    color: #ffffff;
+    background-color: #604e43;
+ }
+ 
+ .search-sedona button:active {
+     color: rgba(255, 255, 255, 0.3);
+     background-color: #503e33;
+  }
+
+.search-form input {
+    font-size: 14px;
+     background-color: #f2f2f2;
+  }
+
+  .search-form label {
+      font-size: 14px;
+  }
