@@ -4,17 +4,22 @@ body {
     color: black;
     text-transform: uppercase;
     background-color: #696969;
-    /*Не пойму почему не подгружается картинка в фон*/
-    background-image: url ("img/content/background-photo.jpg");
+    background-image: url("img/content/background-photo.jpg");
     background-position: top center;
     background-repeat: no-repeat;
+}
+
+.catalog-page {
+    background-color: white;
+    color: black;
+
 }
 
 a {
     text-decoration: none;
 }
 
-.cite-navigation {
+.cite-navigation li {
     font-size: 14px;
     line-height: 26px;
     font-weight: bold;
@@ -37,8 +42,13 @@ a {
 .cite-navigation a:active{
     color: rgba(0, 0, 0, 0.3);
  }
- /*По styleguide не понял как задать
- значение при нахождении на странице*/
+ 
+ li.active-page {
+     font-size: 14px;
+     line-height: 26px;
+     font-weight: bold;
+     color: #766557;
+ }
 
   h2.descrierea{
      font-size: 26px;
@@ -152,8 +162,131 @@ button.search-sedona {
 .search-form input {
     font-size: 14px;
      background-color: #f2f2f2;
+     color: black;
+     border: none;
   }
 
   .search-form label {
       font-size: 14px;
   }
+
+  .search-form input:hover {
+      background-color: #ebebeb;
+  }
+
+  .search-form input:focus {
+    background-color: #ffffff;
+    border: solid 2px #e5e5e5;
+}
+
+button.sent-search {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    color: white;
+    background-color: #81b3d2;
+    border: none;
+    width: 458px;
+    height: 58px;
+    text-transform: uppercase;
+}
+
+
+.sent-search button:focus, button:hover{
+    color: #ffffff;
+    background-color: #669ec0;
+ }
+
+ .sent-search button:active {
+     color: rgba(255, 255, 255, 0.3);
+     background-color: #5496bd;
+ }
+
+ .main-footer {
+     background-color: #ffffff;
+     color: black;
+ }
+ .contacts p {
+     font-size: 21px;
+     line-height: 26px;
+     font-weight: bold;
+ }
+ .icon-back {
+    width: 46px;
+    height: 48px;
+    background-color: #81b3d2;
+  }
+
+  .web {
+      font-size: 14px;
+      line-height: 26px;
+  }
+
+  .contacts a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .icon-back a:hover, a:focus {
+      background-color: #669ec0;
+  }
+
+  .icon-back a:active {
+      background-color: #5496bd;
+  }
+ 
+  .filters {
+      background-color: teal;
+      background-image: url("img/content/filters.jpg");
+  }
+  .filters fieldset {
+      border: none;
+  }
+  .filters legend {
+     font-size: 16px;
+     line-height: 21px;
+     font-weight: bold;
+     color: white;
+  }
+
+  .filters ul {
+      list-style: none;
+      font-size: 14px;
+      line-height: 21px;
+      color: white;
+  }
+
+  .choice span {
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: bold;
+      color: white;
+
+  }
+  .choice input {
+      color: white;
+      background-color: inherit;
+      border: solid 2px #ffffff;
+  }
+
+  .choice button {
+        font-size: 14px;
+        line-height: 21px;
+        color: white;
+        background-color: inherit;
+        width: 133px;
+        height: 32px;
+        border: solid 2px #ffffff;
+  }
+
+  .bradcrumbs {
+      list-style: none;
+
+  }
+
+  .bradcrumbs li {
+      font-size: 12px;
+      line-height: 18px;
+  }
+     
+ 
