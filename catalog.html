@@ -20,9 +20,10 @@
       </nav>
     </header>
     <main>
+      <div class="filter-image">
       <section class="filters">
         <fieldset>
-          <legend>Инфраструктура</legend>
+          <legend>Инфраструктура:</legend>
           <ul>
             <li><label><input type="checkbox" checked>Бассейн</label></li>
             <li><label><input type="checkbox">Парковка</label></li>
@@ -30,8 +31,8 @@
           </ul>
         </fieldset>
         <fieldset>
-          <legend>Тип жилья</legend>
-          <ul class="bradcrumbs">
+          <legend>Тип жилья:</legend>
+          <ul>
             <li><label><input type="checkbox" checked>Гостиница</label></li>
             <li><label><input type="checkbox" checked>Мотель</label></li>
             <li><label><input type="checkbox" checked>Аппартаменты</label></li>
@@ -45,20 +46,21 @@
         <button type="button">Показать</button>
         </div>
       </section>
+      </div>
       <section class="result">
         <h3>Найдено: 3</h3>
         <ul class="bradcrumbs">
           <li>Сортировка:</li>
-          <li><label>По цене<input type="checkbox" checked></label></li>
-          <li><label>По типу<input type="checkbox"></label></li>
-          <li><label>По рейтингу<input type="checkbox"></label></li>
+          <li class="price"><label>По цене<input type="checkbox" checked></label></li>
+          <li class="type"><label>По типу<input type="checkbox"></label></li>
+          <li class="search-rating"><label>По рейтингу<input type="checkbox"></label></li>
         </ul>
         <img src="img\icon\icon-up-dir.svg" width="11px" height="10px" alt="Стрелка вверх">
         <img src="img\icon\icon-down-dir.svg" width="11px" height="10px" alt="Стрелка вниз">
       </section>
       <section>
-        <h2>Список отелей</h2>
-        <ul>
+        <!--<h2>Список отелей</h2>-->
+        <ul class="hotels">
     <li class="hotel-1">
       <h3>Amara Resort & Spa</h3>
       <img src="img\content\amara.jpg" width="135" height="90" alt="hotel-1">
@@ -71,13 +73,13 @@
         <a href="#">Забронировать</a>
       </div>
       <div class="block-3">
-        <ul>
+        <ul class="star">
           <li><img src="img\icon\star.svg" width="18px" height="17px" alt="star1"></li>
           <li><img src="img\icon\star.svg" width="18px" height="17px" alt="star2"></li>
           <li><img src="img\icon\star.svg" width="18px" height="17px" alt="star3"></li>
           <li><img src="img\icon\star.svg" width="18px" height="17px" alt="star4"></li>
         </ul>
-        <p>Рейтинг: 8,5</p>
+        <p class="rating">Рейтинг: 8,5</p>
       </div>
     </li>
     <li class="hotel-2">
@@ -92,12 +94,12 @@
      <a href="#">Забронировать</a>
      </div>
      <div class="block-3">
-     <ul>
+     <ul class="star">
       <li><img src="img\icon\star.svg" width="18px" height="17px" alt="star1"></li>
       <li><img src="img\icon\star.svg" width="18px" height="17px" alt="star2"></li>
       <li><img src="img\icon\star.svg" width="18px" height="17px" alt="star3"></li>
       </ul>
-      <p>Рейтинг: 8,9</p>
+      <p class="rating">Рейтинг: 8,9</p>
       </div>
     </li>
     <li class="hotel-3">
@@ -112,11 +114,11 @@
      <a href="#">Забронировать</a>
      </div>
      <div class="block-3">
-     <ul>
+     <ul class="star">
   <li><img src="img\icon\star.svg" width="18px" height="17px" alt="star1"></li>
   <li><img src="img\icon\star.svg" width="18px" height="17px" alt="star2"></li>
 </ul>
-     <p>Рейтинг: 9,2</p>
+     <p class="rating">Рейтинг: 9,2</p>
      </div>
     </li>
     </ul>
