@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", "Arial";
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+}
+
+.image {
+        width: 1200px;
+        height: 773px;
+        background-image: url("../img/content/bg-photo.jpg");
+        background-position: top center;
+        background-repeat: no-repeat;
+}
+
+.catalog-page {
+    background-color: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cite-navigation li {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    color: black;
+    background-color: white;    
+}
+
+.cite-navigation {
+    list-style: none;
+}
+.cite-navigation a {
+    color: black;
+}
+
+.cite-navigation a:hover, a:focus{
+   color: #81b3d2;
+}
+
+.cite-navigation a:active{
+    color: rgba(0, 0, 0, 0.3);
+ }
+ 
+ li.active-page {
+     font-size: 14px;
+     line-height: 26px;
+     font-weight: bold;
+     color: #766557;
+ }
+
+ .white-block {
+     background-color: white;
+ }
+
+  h2.descrierea{
+     font-size: 26px;
+     text-align: center;
+     line-height: 26px;
+}
+
+  p.descrierea {
+     font-size: 14px;
+     text-align: center;
+     line-height: 26px;
+}
+
+li.advantage-line {
+    list-style: none;
+}
+div.advantage-content {
+    color: white;
+    line-height: 21px;
+    background-color: #81b3d2;
+    text-align: center;  
+}
+.advantage-content h3 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.advantage-list {
+    list-style: none;
+    background-color: white;
+}
+.advantage-list h3 {
+    font-size: 21px;
+    line-height: 21px;
+}
+.advantage-list p {
+    line-height: 21px;
+}
+
+div.advantage-content-bridge {
+    background-color: #81b3d2;
+    color: white;
+    line-height: 21px;
+    text-align: center;  
+}
+.advantage-content-bridge h3 {
+    font-size: 21px;
+}
+
+.area {
+    list-style: none;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+.area h3 {
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.advantage-area span, p {
+    line-height: 21px;
+}
+
+.interest-block {
+    background-color: white;
+}
+.interest {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.interest-text {
+    line-height: 24px;
+    text-align: center;
+}
+
+button.search-sedona {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    text-transform: uppercase;
+    background-color: #766357;
+    border: none;
+    width: 568px;
+    height: 86px;
+
+}
+
+.search-sedona button:focus, button:hover{
+    color: #ffffff;
+    background-color: #604e43;
+ }
+ 
+ .search-sedona button:active {
+     color: rgba(255, 255, 255, 0.3);
+     background-color: #503e33;
+  }
+
+.search-form input {
+    font-size: 14px;
+     background-color: #f2f2f2;
+     color: black;
+     border: none;
+  }
+
+  .search-form label {
+      font-size: 14px;
+  }
+
+  .search-form input:hover {
+      background-color: #ebebeb;
+  }
+
+  .search-form input:focus {
+    background-color: #ffffff;
+    border: solid 2px #e5e5e5;
+}
+
+button.sent-search {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    color: white;
+    background-color: #81b3d2;
+    border: none;
+    width: 458px;
+    height: 58px;
+    text-transform: uppercase;
+}
+
+
+.sent-search button:focus, button:hover{
+    color: #ffffff;
+    background-color: #669ec0;
+ }
+
+ .sent-search button:active {
+     color: rgba(255, 255, 255, 0.3);
+     background-color: #5496bd;
+ }
+
+ .main-footer {
+     background-color: #ffffff;
+ }
+
+ .contacts p {
+     font-size: 21px;
+     line-height: 26px;
+     font-weight: bold;
+ }
+ .icons {
+     list-style: none;
+
+ }
+ .icon-back {
+    width: 46px;
+    height: 48px;
+    background-color: #81b3d2;
+  }
+
+  .web {
+      font-size: 14px;
+      line-height: 26px;
+  }
+
+  .contacts a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .icon-back a:hover, a:focus {
+      background-color: #669ec0;
+  }
+
+  .icon-back a:active {
+      background-color: #5496bd;
+  }
+
+ /*Не пойму как по стайл гайду изменить цвет ссылки академи*/
+ 
+ .filter-image {
+     background-color: #175881;
+     background-image: url("/img/content/filters.jpg");
+ }
+
+ /*Здесь не пойму почему картинка не вставляется*/
+
+ .filters fieldset {
+     border: none;
+ }
+ .filters legend {
+     font-size: 16px;
+     font-weight: bold;
+     line-height: 21px;
+     color: white;
+ }
+
+ .filters ul {
+     list-style: none;
+ }
+ 
+ .filters li {
+     line-height: 21px;
+     color: white;
+ }
+
+ .choice {
+     color: white;
+ }
+ .choice span {
+     font-size: 16px;
+     font-weight: bold;
+     line-height: 21px;
+ }
+
+ /*Не получается инпутам задать бордер*/
+
+ .result h3{
+     font-size: 16px;
+     line-height: 26px;
+ }
+
+ .bradcrumbs {
+     list-style: none;
+     font-size: 12px;
+     line-height: 18px;
+ }
+
+ .price {
+     color: #81b3d2;
+ }
+
+ .type label {
+     color: #f2f2f2;
+     border-bottom: 1px dotted #f2f2f2;
+}
+.search-rating label {
+    color: #f2f2f2;
+    border-bottom: 1px dotted #f2f2f2;
+}
+
+.hotels {
+    list-style: none;
+}
+
+.hotels h3 {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.hotels li {
+    color: #333333;
+}
+
+.hotels button {
+    width: 110px;
+    height: 27px;
+    background-color: #81b3d2;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+.hotels a {
+    width: 142px;
+    height: 27px;
+    background-color: #766357;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+.star {
+    list-style: none;
+}
+
+.rating {
+    line-height: 21px;
+    color: #666666;
+    text-align: center;
+    width: 110px;
+    height: 27px;
+    background-color: #f2f2f2;
+}
