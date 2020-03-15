@@ -81,7 +81,7 @@ a {
 .promo {
   background-image: url("/img/content/polygon.png"), url("/img/content/bg-photo.jpg");
   background-repeat: no-repeat;
-  background-position:  0 453px, bottom;
+  background-position:  0 453px, bottom center;
   background-size: contain, 1200px;
   position: relative;
   min-height: 717px;
