@@ -79,7 +79,7 @@ a {
 }
 
 .promo {
-  background-image: url("/img/content/polygon.png"), url("/img/content/bg-photo.jpg");
+  background-image: url("../img/content/polygon.png"), url("../img/content/bg-photo.jpg");
   background-repeat: no-repeat;
   background-position:  0 453px, bottom center;
   background-size: contain, 1200px;
@@ -160,7 +160,7 @@ a {
 }
 
 .advantage-list .housing {
-  background-image: url("/img/icon/house.svg");
+  background-image: url("../img/icon/house.svg");
   background-repeat: no-repeat;
   background-size: 75px 72px;
   position: relative;
@@ -168,7 +168,7 @@ a {
 }
 
 .advantage-list .food {
-  background-image: url("/img/icon/foot.svg");
+  background-image: url("../img/icon/foot.svg");
   background-repeat: no-repeat;
   background-size: 74px 70px;
   position: relative;
@@ -176,7 +176,7 @@ a {
 }
 
 .advantage-list .present {
-  background-image: url("/img/icon/present.svg");
+  background-image: url("../img/icon/present.svg");
   background-repeat: no-repeat;
   background-size: 64px 76px;
   position: relative;
