@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="cite-content">
-    <header class="cite-content-header">
+    <header>
       <nav class="main-navigation">
         <div class="header-logo">
           <a><img src="img\logo\header-logo.svg" width="140" height="71" alt="Лого сайта"></a>
@@ -35,60 +35,64 @@
       <section class="reasons">
       <ol class="reasons-list">
         <li class="advantage-line">
-            <div class="advantage-content blue-bg">
-              <h2>Настоящий городок</h2>
-              <span>— №1 —</span>
+            <div class="advantage-content blue">
+              <h2>Настоящий<br>городок</h2>
+              <p>— №1 —</p>
               <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
             <div class="img-wrap">
-            <img src="img\content\image-content1.jpg" width="800px" height="256px" alt="Фото городка">
+            <img src="img\content\image-content1.jpg" width="800" height="256" alt="Фото городка">
             </div>
               <ul class="advantage-list">
                 <li class="advantages-item housing">
                   <h3>Жильё</h3>
-                  <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                  <p>Рекомендуем пожить в настоящем<br>мотеле, всё как в кино!</p>
                 </li>
                 <li class="advantages-item food">
                   <h3>Еда</h3>
-                  <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                  <p>Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
                 </li>
                 <li class="advantages-item present">
                   <h3>Сувениры</h3>
-                  <p>Не только китайского, но и местного производства!</p>
+                  <p>Не только китайского, но и местного<br>производства!</p>
                 </li>
               </ul>
           </li>
         <li class="advantages-line reverse">
-           <div class="advantage-content blue-bg">
-            <h2>Там есть Мост дьявола</h2>
-            <span>— №2 —</span>
+           <div class="advantage-content blue-two">
+            <h2>Там есть<br>Мост дьявола</h2>
+            <p>— №2 —</p>
             <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </div>
           <div class="img-wrap">
-           <img src="img\content\image-content2.jpg" width="800px" height="256px" alt="Фото Моста">
+           <img src="img\content\image-content2.jpg" width="800" height="256" alt="Фото Моста">
           </div>
         </li>
+        <li class="flex-bottom">
+          <ul>
         <li class="advantages-line">
-          <div class="advantage-content gray-bg">
+          <div class="advantage-content bottom-one">
            <h2>Небольшая площадь</h2>
-           <span>— №3 —</span>
+           <p>— №3 —</p>
            <p>Все достопримечательности находятся очень близко</p>
           </div>
          </li>
         <li class="advantages-line">
-          <div class="advantage-content gray-bg">
-           <h2>Красивая дорога</h2>
-           <span>— №4 —</span>
+          <div class="advantage-content bottom-two">
+           <h2>Красивая<br>дорога</h2>
+           <p>— №4 —</p>
            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </div>
         </li>
         <li class="advantages-line">
-          <div class="advantage-content gray-bg">
-           <h2>Мало туристов</h2>
-           <span>— №5 —</span>
+          <div class="advantage-content bottom-three">
+           <h2>Мало<br>туристов</h2>
+           <p>— №5 —</p>
            <p>Большинство едет в гранд каньон и толпится там</p>
           </div>
         </li>
+          </ul>
+      </li>
         </li>
       </ol>
         </section>
@@ -102,7 +106,7 @@
         <form class="search-hotels" action="https://echo.htmlacademy.ru" method="post">
           <div class="check-in">
            <label for="check-in"> Дата заезда:</label>
-             <input type="text" id="check-in" name="arrival-date" placeholder="24 апреля 2017">
+             <input type="text" id="check-in" name="arrival-date" value="24 апреля 2017">
              <button class="calendar">
               <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" fill="#cacaca">
                 <path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"/>
@@ -112,7 +116,7 @@
           </div>
           <div class="check-out">
            <label for="check-out"> Дата выезда:</label>
-             <input type="text" id="check-out" name="date-of-departure" placeholder="4 июля 2017">
+             <input type="text" id="check-out" name="date-of-departure" value="4 июля 2017">
              <button class="calendar">
               <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" fill="#cacaca">
                 <path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"/>
@@ -123,13 +127,13 @@
             <div class="adults">
             <label for="adults"> Взрослые:</label>
              <button class="minus">-</button>
-             <input type="number" id="adults" name="adults" min="0" step="1" value="2">
+             <input type="text" id="adults" name="adults" min="0" step="1" value="2">
              <button class="plus">+</button>
             </div>
             <div class="children">
            <label for="children">Дети:</label>
            <button class="minus">-</button>
-             <input type="number" id="children" name="children" min="0" step="1" value="0">
+             <input type="text" id="children" name="children" min="0" step="1" value="0">
              <button class="plus">+</button>
           </div>
           <div class="button-sent-search">
@@ -161,8 +165,3 @@
   </div>
   </body>
 </html>
-<!--1. Не могу понть как задать стили для плейсхолдера "дата заезда" и "дата выезда"
-2. Иконки календарей, что то с ними не то на мой взгляд
-3. Плюсы и минусы аналогично календарям, как то кривовато выглядит
-4. При наведении на количество взрослых и детей повляются, как я понял встроенные в браузер кнопки увелечения и уменьшения, думаю их как то убрать
-5. Съехал телефон в футере-->
