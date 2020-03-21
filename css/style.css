@@ -1,6 +1,4 @@
-html {
-  line-height: 0;
-}
+
 body {
   margin: 0;
   padding: 0;
@@ -36,9 +34,10 @@ a {
 
 .cite-navigation a {
   color: #000000;
-  line-height: 56px;
+  display: block;
+  margin-top: 19px;
+  margin-right: 9px;
 }
-
 .cite-navigation a:hover,
 .cite-navigation a:focus {
   color: #81b3d2;
@@ -58,6 +57,14 @@ a {
   min-height: 56px;
   text-align: center;
 }
+
+.cite-navigation li:nth-child(3) {
+  width: 280px;
+}
+.cite-navigation li:nth-child(4) {
+  width: 214px;
+}
+
 
 .cite-navigation li:nth-child(3) {
   margin-left: auto;
