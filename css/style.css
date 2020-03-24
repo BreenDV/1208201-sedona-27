@@ -882,7 +882,7 @@ a.academy-logo:active path {
   color: #333333;
 }
 
-.block-button button {
+.block-button .more-details {
   width: 113px;
   height: 27px;
   margin-right: 6px;
@@ -890,17 +890,17 @@ a.academy-logo:active path {
   color: white;
   text-transform: uppercase;
   background-color: #81b3d2;
-  line-height: 21px;
+  line-height: 27px;
   font-weight: bold;
 }
 
-.block-button button:hover,
-.block-button button:focus {
+.block-button .more-details:hover,
+.block-button .more-details:focus {
   color: #ffffff;
   background-color: #669ec0;
 }
 
-.block-button button:active {
+.block-button .more-details:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: 5496bd;
 }
